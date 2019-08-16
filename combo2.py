@@ -84,9 +84,7 @@ bumpy_bkg = [X_test[ii][1] for ii in range(0, len(X_test)) if y_test[ii]==1]
 plt.scatter(grade_sig, bumpy_sig, color = "b", label="fast")
 plt.scatter(grade_bkg, bumpy_bkg, color = "r", label="slow")
 plt.show()
-"""
 plt.legend()
 plt.xlabel("bumpiness")
 plt.ylabel("grade")
 plt.savefig("test.png")
-"""
